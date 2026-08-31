@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Da Lama ao Caos",
+    "artist": "Chico Science & Nação Zumbi",
+    "year": 1994,
+    "category": "Manguebeat",
+    "price": 189.9,
+    "description": "Marco do manguebeat, mistura ritmos nordestinos com guitarras e groove urbano.",
+    "image": "assets/images/albums/da-lama-ao-caos.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Raimundos",
+    "artist": "Raimundos",
+    "year": 1994,
+    "category": "Rock Brasileiro",
+    "price": 159.9,
+    "description": "Álbum de estreia que misturou punk rock com forró de forma inédita.",
+    "image": "assets/images/albums/raimundos.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Samba Esquema Noise",
+    "artist": "Mundo Livre S/A",
+    "year": 1994,
+    "category": "Manguebeat",
+    "price": 139.9,
+    "description": "Disco que uniu samba, rock e discurso político dentro do movimento manguebeat.",
+    "image": "assets/images/albums/samba-esquema-noise.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Verde, Anil, Amarelo, Cor-de-Rosa e Carvão",
+    "artist": "Marisa Monte",
+    "year": 1994,
+    "category": "MPB",
+    "price": 139.9,
+    "description": "Disco que ampliou a fusão entre MPB e sonoridades contemporâneas.",
+    "image": "assets/images/albums/verde-anil-amarelo-cor-de-rosa-e-carvao.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Roots",
+    "artist": "Sepultura",
+    "year": 1996,
+    "category": "Rock Brasileiro",
+    "price": 139.9,
+    "description": "Álbum que incorporou percussão indígena ao metal, ampliando a identidade sonora da banda.",
+    "image": "assets/images/albums/roots.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Sobrevivendo no Inferno",
+    "artist": "Racionais MC's",
+    "year": 1997,
+    "category": "Rap",
+    "price": 189.9,
+    "description": "Um dos discos mais influentes do rap nacional, retrato cru da periferia paulistana.",
+    "image": "assets/images/albums/sobrevivendo-no-inferno.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Lado B Lado A",
+    "artist": "O Rappa",
+    "year": 1999,
+    "category": "Rock Brasileiro",
+    "price": 139.9,
+    "description": "Álbum que misturou rock, reggae e crítica social em ritmo urbano.",
+    "image": "assets/images/albums/lado-b-lado-a.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Bloco do Eu Sozinho",
+    "artist": "Los Hermanos",
+    "year": 2001,
+    "category": "Rock Brasileiro",
+    "price": 159.9,
+    "description": "Disco de estreia que ajudou a definir o indie rock brasileiro dos anos 2000.",
+    "image": "assets/images/albums/bloco-do-eu-sozinho.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Nada como um Dia após o Outro Dia",
+    "artist": "Racionais MC's",
+    "year": 2002,
+    "category": "Rap",
+    "price": 139.9,
+    "description": "Continuação do trabalho que consolidou o grupo como referência do rap nacional.",
+    "image": "assets/images/albums/nada-como-um-dia-apos-o-outro-dia.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Ventura",
+    "artist": "Los Hermanos",
+    "year": 2003,
+    "category": "Rock Brasileiro",
+    "price": 139.9,
+    "description": "Segundo álbum da banda, ampliou o alcance do rock brasileiro no início dos anos 2000.",
+    "image": "assets/images/albums/ventura.jpg"
+  }
+]

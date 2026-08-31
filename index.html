@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulco — Discos essenciais da música brasileira</title>
+  <meta name="description" content="Sulco é uma loja de discos dedicada a álbuns essenciais da música brasileira, com curadoria própria e catálogo em vinil.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__brand">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo/sulco-logo.svg" alt="Sulco" class="logo__image">
+      </a>
+    </div>
+    <div class="site-header__actions">
+      <nav class="site-header__nav" aria-label="Navegação principal">
+        <a href="como-fiz/">Como fiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Uma seleção essencial da música brasileira em formato de disco.</h1>
+    <p>Vinis reunidos por curadoria própria, para quem quer descobrir (ou redescobrir) álbuns que marcaram a música brasileira.</p>
+  </section>
+
+  <section class="filters" aria-label="Busca e filtros do catálogo">
+    <div class="filters__field">
+      <label for="search">Buscar</label>
+      <input type="search" id="search" name="search" placeholder="Álbum ou artista...">
+    </div>
+
+    <div class="filters__field">
+      <label for="sort">Ordenar por</label>
+      <select id="sort" name="sort">
+        <option value="title" selected>Nome do álbum</option>
+        <option value="artist">Artista</option>
+        <option value="year-asc">Mais antigos</option>
+        <option value="year-desc">Mais recentes</option>
+      </select>
+    </div>
+
+    <p id="result-count" class="filters__count" aria-live="polite"></p>
+  </section>
+
+  <main>
+    <section id="catalogo" class="catalog" aria-live="polite">
+      <!-- Cards inseridos dinamicamente via JavaScript -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Sulco</strong> — loja fictícia e educacional, sem fins comerciais e sem afiliação com gravadoras ou artistas citados.</p>
+    <p>Preços meramente ilustrativos.</p>
+    <p><a href="como-fiz/">Como este projeto foi construído</a></p>
+  </footer>
+
+  <script src="js/render.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
