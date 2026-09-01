@@ -135,6 +135,16 @@ a:focus-visible {
   margin: 0 auto;
 }
 
+.how-it-was-made__video {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: var(--spacing-lg) auto 0;
+  border-radius: var(--radius);
+  background: #000;
+}
+
 /* ==========================================================================
    6. Busca e filtros
    ========================================================================== */
