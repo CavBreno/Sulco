@@ -28,6 +28,37 @@ function createProductCard(product) {
   return card;
 }
 
+// Quantidade de cards fantasma exibidos antes do fetch responder,
+// reservando a altura real do catálogo para evitar CLS no footer.
+const SKELETON_COUNT = 10;
+
+function createSkeletonCard() {
+  const card = document.createElement("div");
+  card.className = "card card--skeleton";
+
+  card.innerHTML = `
+    <div class="card__cover"></div>
+    <div class="card__info">
+      <div class="skeleton-line skeleton-line--title"></div>
+      <div class="skeleton-line skeleton-line--artist"></div>
+      <div class="skeleton-line skeleton-line--meta"></div>
+    </div>
+  `;
+
+  return card;
+}
+
+function renderSkeleton() {
+  const catalog = document.getElementById("catalogo");
+  const fragment = document.createDocumentFragment();
+
+  for (let i = 0; i < SKELETON_COUNT; i++) {
+    fragment.appendChild(createSkeletonCard());
+  }
+
+  catalog.appendChild(fragment);
+}
+
 function renderProducts(products) {
   const catalog = document.getElementById("catalogo");
   const resultCount = document.getElementById("result-count");

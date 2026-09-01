@@ -19,6 +19,8 @@ function setupFilters() {
 }
 
 async function loadProducts() {
+  renderSkeleton();
+
   try {
     const response = await fetch("./products.json");
 
