@@ -2,30 +2,26 @@
 
 Mini-loja virtual dedicada a discos essenciais da música brasileira. Projeto educacional e fictício — sem afiliação com gravadoras ou artistas.
 
+## Funcionalidades
+
+- Catálogo carregado dinamicamente via `fetch()` a partir de `products.json` (headless commerce em miniatura: o JSON é a fonte de dados, o JavaScript monta a vitrine).
+- Busca por título ou artista, com ordenação por nome, artista ou ano.
+- Estados de carregamento (skeleton) e de erro no fetch do catálogo.
+- Fallback de imagem para capas indisponíveis.
+- Página [`/como-fiz`](./como-fiz) com vídeo explicando o processo de construção do projeto.
+
 ## Stack
 
-HTML5 + CSS3 + JavaScript puro + `products.json`, sem frameworks.
+HTML5 + CSS3 + JavaScript puro, sem frameworks. Catálogo servido como JSON estático (`products.json`).
 
 ## Estrutura
-
-```
-index.html          página principal (vitrine)
-products.json        catálogo de discos (fonte de dados)
-css/style.css        estilos (tema único, escuro)
-js/script.js          bootstrap: fetch do catálogo
-js/render.js          criação dos cards e formatPrice
-js/filters.js         busca e ordenação
-assets/images/albums  capas dos discos
-assets/images/logo    logo da loja
-como-fiz/             página com o vídeo explicativo do projeto
-```
-
-## Rodando localmente
-
-Como o catálogo é carregado via `fetch()`, abrir `index.html` diretamente pelo navegador (`file://`) não funciona. Sirva a pasta com um servidor estático simples, por exemplo:
-
-```
-npx serve .
-```
-
-ou a extensão "Live Server" do VS Code.
+index.html página principal (vitrine)
+products.json catálogo de discos (fonte de dados)
+css/style.css estilos (tema único, escuro)
+js/script.js bootstrap: fetch do catálogo e ligação dos filtros
+js/render.js criação dos cards, skeleton loading e formatPrice
+js/filters.js busca e ordenação
+assets/images/albums capas dos discos
+assets/images/logo logo da loja
+assets/videos vídeo explicativo usado em /como-fiz
+como-fiz/ página com o vídeo explicando o projeto
