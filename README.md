@@ -6,7 +6,6 @@ Mini-loja virtual dedicada a discos essenciais da música brasileira. Projeto ed
 
 - Catálogo carregado dinamicamente via `fetch()` a partir de `products.json` (headless commerce em miniatura: o JSON é a fonte de dados, o JavaScript monta a vitrine).
 - Busca por título ou artista, com ordenação por nome, artista ou ano.
-- Estados de carregamento (skeleton) e de erro no fetch do catálogo.
 - Fallback de imagem para capas indisponíveis.
 - Página [`/como-fiz`](./como-fiz) com vídeo explicando o processo de construção do projeto.
 
