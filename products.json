@@ -10,7 +10,7 @@
     "image": "assets/images/albums/da-lama-ao-caos.jpg"
   },
   {
-    "id": 10,
+    "id": 2,
     "title": "Raimundos",
     "artist": "Raimundos",
     "year": 1994,
@@ -20,7 +20,7 @@
     "image": "assets/images/albums/raimundos.jpg"
   },
   {
-    "id": 16,
+    "id": 3,
     "title": "Samba Esquema Noise",
     "artist": "Mundo Livre S/A",
     "year": 1994,
@@ -30,7 +30,7 @@
     "image": "assets/images/albums/samba-esquema-noise.jpg"
   },
   {
-    "id": 19,
+    "id": 4,
     "title": "Verde, Anil, Amarelo, Cor-de-Rosa e Carvão",
     "artist": "Marisa Monte",
     "year": 1994,
@@ -40,7 +40,7 @@
     "image": "assets/images/albums/verde-anil-amarelo-cor-de-rosa-e-carvao.jpg"
   },
   {
-    "id": 13,
+    "id": 5,
     "title": "Roots",
     "artist": "Sepultura",
     "year": 1996,
@@ -50,7 +50,7 @@
     "image": "assets/images/albums/roots.jpg"
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Sobrevivendo no Inferno",
     "artist": "Racionais MC's",
     "year": 1997,
@@ -60,7 +60,7 @@
     "image": "assets/images/albums/sobrevivendo-no-inferno.jpg"
   },
   {
-    "id": 22,
+    "id": 7,
     "title": "Lado B Lado A",
     "artist": "O Rappa",
     "year": 1999,
@@ -70,7 +70,7 @@
     "image": "assets/images/albums/lado-b-lado-a.jpg"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Bloco do Eu Sozinho",
     "artist": "Los Hermanos",
     "year": 2001,
@@ -80,7 +80,7 @@
     "image": "assets/images/albums/bloco-do-eu-sozinho.jpg"
   },
   {
-    "id": 20,
+    "id": 9,
     "title": "Nada como um Dia após o Outro Dia",
     "artist": "Racionais MC's",
     "year": 2002,
@@ -90,7 +90,7 @@
     "image": "assets/images/albums/nada-como-um-dia-apos-o-outro-dia.jpg"
   },
   {
-    "id": 15,
+    "id": 10,
     "title": "Ventura",
     "artist": "Los Hermanos",
     "year": 2003,
